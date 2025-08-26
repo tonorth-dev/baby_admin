@@ -20,6 +20,7 @@ type RouterGroup struct {
 	SysExportTemplateRouter
 	SysParamsRouter
 	SysVersionRouter
+	MiniprogramUserRouter
 }
 
 var (
@@ -43,4 +44,5 @@ var (
 	autoCodeTemplateApi = api.ApiGroupApp.SystemApiGroup.AutoCodeTemplateApi
 	exportTemplateApi   = api.ApiGroupApp.SystemApiGroup.SysExportTemplateApi
 	sysVersionApi       = api.ApiGroupApp.SystemApiGroup.SysVersionApi
+	miniprogramUserApi  = api.ApiGroupApp.SystemApiGroup.MiniprogramUserApi
 )

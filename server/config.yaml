@@ -97,6 +97,9 @@ mcp:
     sse_path: /sse
     message_path: /message
     url_prefix: ""
+miniprogram:
+    app-id: wxc6b5ed41bb8f3ff3
+    app-secret: d0f81f044d904ca0fd7ebc0971abd121
 minio:
     endpoint: yourEndpoint
     access-key-id: yourAccessKeyId

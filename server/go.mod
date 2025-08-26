@@ -1,4 +1,4 @@
-module github.com/flipped-aurora/gin-vue-admin/server
+module baby_admin/server
 
 go 1.23
 
@@ -10,6 +10,7 @@ require (
 	github.com/casbin/casbin/v2 v2.103.0
 	github.com/casbin/gorm-adapter/v3 v3.32.0
 	github.com/dzwvip/gorm-oracle v0.1.2
+	github.com/flipped-aurora/gin-vue-admin/server v0.0.0-00010101000000-000000000000
 	github.com/fsnotify/fsnotify v1.8.0
 	github.com/gin-gonic/gin v1.10.0
 	github.com/glebarez/sqlite v1.11.0
@@ -53,6 +54,8 @@ require (
 	gorm.io/gen v0.3.26
 	gorm.io/gorm v1.25.12
 )
+
+replace github.com/flipped-aurora/gin-vue-admin/server => ./
 
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect

@@ -85,6 +85,8 @@ func Routers() *gin.Engine {
 	{
 		systemRouter.InitBaseRouter(PublicGroup) // 注册基础功能路由 不做鉴权
 		systemRouter.InitInitRouter(PublicGroup) // 自动初始化相关
+		systemRouter.InitMiniprogramUserRouter(PublicGroup) // 注册小程序用户路由（登录不需要鉴权）
+		systemRouter.InitAppUserRouter(PublicGroup) // 注册APP用户路由（注册和登录不需要鉴权）
 	}
 
 	{

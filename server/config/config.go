@@ -37,4 +37,6 @@ type Server struct {
 
 	// MCP配置
 	MCP MCP `mapstructure:"mcp" json:"mcp" yaml:"mcp"`
+	// 小程序配置
+	Miniprogram Miniprogram `mapstructure:"miniprogram" json:"miniprogram" yaml:"miniprogram"`
 }

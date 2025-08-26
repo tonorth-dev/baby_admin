@@ -18,6 +18,7 @@ type ServiceGroup struct {
 	SysExportTemplateService
 	SysParamsService
 	SysVersionService
+	MiniprogramUserService
 	AutoCodePlugin   autoCodePlugin
 	AutoCodePackage  autoCodePackage
 	AutoCodeHistory  autoCodeHistory
